@@ -56,7 +56,7 @@ body{
    
 }
 img{
-   width: 150px;
+    width: 190px;
     background-color:#FCFCFC ;
     border-radius: 100%;
     opacity: 1;
@@ -96,4 +96,15 @@ img{
 #button1:hover, #button2:hover, #button3:hover, #button4:hover, #button5:hover, #button6:hover, #button7:hover, #button8:hover, #button9:hover, #button10:hover{
   
     opacity: 1;
+}
+
+
+@media screen and (min-width:300px) and (max-width:539px) {
+    img{
+        width: 245px;
+         background-color:#FCFCFC ;
+         border-radius: 100%;
+         opacity: 1;
+         
+     }
 }
